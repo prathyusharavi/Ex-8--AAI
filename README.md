@@ -1,6 +1,7 @@
- <H3>ENTER YOUR NAME: YENUGANTI PRATHYUSHA</H3>
-<H3>ENTER YOUR REGISTER NO:212223100061</H3>
-<H3>EX. NO:10</H3>
+
+<H3>NAME : YENUGANTI PRATHYUSHA</H3>
+<H3>REGISTER NO. 212223240187</H3>
+<H3>EX. NO.10</H3>
 
 <H1 ALIGN =CENTER>Implementation of Speech Recognition</H1>
 <H3>Aim:</H3> 
@@ -21,6 +22,7 @@ Step 11: Perform speech recognition with exceptional handling:<Br>
 •	Handle specific exceptions: If the recognition result is unknown or if there is an issue with the request to the Google Speech Recognition service, print corresponding error messages.<Br>
 •	A generic exception block captures any other unexpected errors.<Br>
 <H3>Program:</H3>
+
 ```python
 import speech_recognition as sr
 
@@ -49,9 +51,12 @@ except Exception as e:
     print(f"Error: {e}")
 
 ```
+
 <H3> Output:</H3>
-<img width="779" height="145" alt="Screenshot (511)" src="https://github.com/user-attachments/assets/714989de-9be1-4ee7-88d6-6130206f90f9" />
+
+<img width="779" height="145" alt="Screenshot (511)" src="https://github.com/user-attachments/assets/312a0d94-7a96-481d-a3c1-636605407bb8" />
 
 
 <H3> Result:</H3>
+
 Thus, The implementation of speech recognition is executed successfully.
